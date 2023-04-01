@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    background-color: white;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom,  #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+img {
+    width: 200px;
+}
+
+
